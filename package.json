@@ -1,0 +1,41 @@
+{
+  "name": "user-auth-ts",
+  "version": "1.0.0",
+  "description": "simple login and signup with passport",
+  "main": "index.ts",
+  "scripts": {
+    "start": "npx ts-node src/index.ts",
+    "dev": "nodemon src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shinobi8894/user-auth-ts.git"
+  },
+  "keywords": [
+    "user",
+    "auth",
+    "ts",
+    "Backend"
+  ],
+  "author": "shinobi8894",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shinobi8894/user-auth-ts/issues"
+  },
+  "homepage": "https://github.com/shinobi8894/user-auth-ts#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.22",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.3"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.2",
+    "cookie-parser": "^1.4.6",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "mongoose": "^7.3.0",
+    "passport": "^0.6.0",
+    "passport-local": "^1.0.0"
+  }
+}
